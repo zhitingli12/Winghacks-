@@ -1,8 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 function About() {
   return (
-    <div>
       <div>
         <h1> ABOUT US</h1>
         <p>
@@ -21,7 +20,6 @@ function About() {
           cumque velit
         </p>
       </div>
-    </div>
   );
 }
 
