@@ -100,14 +100,3 @@
       display: none;
     }
   }
-
-  .background{
-    background-image: url(
-        https://blink.ucsd.edu/finance/_images/index/FinanceIndexHero.png
-    );
-    background-size: "cover";
-    height: 100vh;
-    margin-top: -70px;
-    font-size: 50px;
-    background-repeat: no-repeat;
-  }
