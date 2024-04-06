@@ -1,12 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {Link} from "react-router-dom";
 import "../styles/Navbar.css";
 function Navbar() {
-  const [openLinks, setOpenLinks] = useState(false);
-
-  const toggleNavbar = () => {
-    setOpenLinks(!openLinks);
-  };
 
   return (
     <div className="navbar">
@@ -21,4 +16,4 @@ function Navbar() {
   );
 }
 
-export default Navbar
+export default Navbar;

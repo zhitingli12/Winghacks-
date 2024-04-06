@@ -1,5 +1,4 @@
-import React from 'react'
-import {Link} from "react-router-dom";
+import React from 'react';
 import homeImage from "../picture/homeImage.jpg";
 import "../styles/Home.css";
 
@@ -13,4 +12,4 @@ function Home() {
   );
 }
 
-export default Home
+export default Home;
