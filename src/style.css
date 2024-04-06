@@ -6,7 +6,7 @@
 .background {
     width: 100%;
     height:100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))url('https://blink.ucsd.edu/finance/_images/index/FinanceIndexHero.png');
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))url('FinanceIndexHero.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -15,7 +15,21 @@
 .title {
     text-align: center
 }
-.subTitle {
+.subTitle{
+    width: 85%
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.subTitle ul li{
     display: inline-block;
-    margin: 50px;
+    list-style: none;
+    margin: 0 20px;
+}
+.subTitle ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
 }
