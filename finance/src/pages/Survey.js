@@ -7,12 +7,13 @@ function Survey() {
   const [currentSavings, setCurrentSavings] = useState("");
   const [savingsGoal, setSavingsGoal] = useState("");
   const [income, setIncome] = useState("");
+  const [email, setEmail] = useState("");
 
   const navigate = useNavigate();
 
   const submit = (e) => { 
     e.preventDefault(); 
-    if (!name || !currentSavings || !savingsGoal || !income) { 
+    if (!name || !currentSavings || !savingsGoal || !email) { 
       // Alert if any field is missing 
       alert("All fields necessary!"); 
     } else { 
@@ -173,6 +174,19 @@ function Survey() {
                   />
                   <label htmlFor="other"> Other</label>
 
+      </div>
+      <div>
+      <br />
+      <b>6.</b> What is your email?
+      <br/>
+        <input 
+          type="text"
+          name="email"
+          value={email} 
+          onChange={(e) => { setEmail(e.target.value) }}
+          placeholder='Enter your email'
+          autoComplete='off'
+        />
       </div>
 
       </div>
