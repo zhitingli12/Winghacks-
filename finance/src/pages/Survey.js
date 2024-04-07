@@ -30,11 +30,14 @@ function Survey() {
   }
 
   return ( 
-      <div>
+    <div>
+    <h1>Survey</h1>
+      <div style={{textAlign: 'left', marginLeft: "50px", marginRight: "50px", fontSize: "20px"}}>
         <form onSubmit={submit}>
         <div>
         <br /> 
-        <b>1.</b> Name
+        <b>1.</b> Name:
+        <br/>
         <input 
           type="text"
           name="name"
@@ -87,6 +90,7 @@ function Survey() {
       <div>
       <br />
       <b>3.</b> How much do you already have saved?
+      <br/>
         <input 
           type="text"
           name="currentSavings"
@@ -100,6 +104,7 @@ function Survey() {
       <div>
       <br />
       <b>4.</b> What is your savings goal?
+      <br/>
         <input 
           type="text"
           name="savingsGoal"
@@ -177,7 +182,7 @@ function Survey() {
         <button type='submit'>Submit</button>
         </form>
       </div>
-      
+      </div>
   );
 }
 

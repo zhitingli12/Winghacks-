@@ -10,6 +10,7 @@ function Navbar() {
             <Link to="/about"> About</Link>
             <Link to="/survey"> Survey</Link>
             <Link to="/resources"> Resources</Link>
+            <Link to="/FAQs">FAQs</Link>
         
 
     </div>
