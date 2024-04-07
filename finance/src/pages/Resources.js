@@ -22,7 +22,7 @@ function Resources() {
             including those who might not have had access to certain financial services otherwise. Additionally,
             Capital One is committed to creating positive change within communities and places particular emphasis
             on environmental sustainability, community, and DEI efforts. Evidently, Capital One prioritizes not
-            also the provision of financial services, but also philanthropic efforts. Captial
+            only the provision of financial services, but also philanthropic efforts. Captial
             One's <Link to="https://www.capitalone.com/bank/money-management/">Money Management page</Link> provides
             several articles pertaining to the maintenance of personal finance.
           </li>
