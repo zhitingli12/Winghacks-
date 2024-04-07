@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
 
 function Resources() {
   return (
-    <div>Resources</div>
-  )
+    <div>
+        <h1> Resources</h1>
+        <p>
+        
+
+        </p>
+      </div>
+  );
 }
 
-export default Resources
+export default Resources;
