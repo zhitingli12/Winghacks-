@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-function About() {
+function FAQs() {
   return (
       <div>
         <h1> FAQs</h1>
@@ -99,4 +99,4 @@ The following are some steps that an individual can take in order to improve the
   );
 }
 
-export default About;
+export default FAQs;
