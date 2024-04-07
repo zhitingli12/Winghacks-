@@ -1,19 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import resourcesImage from "../picture/resourceImage.webp";
+import "../styles/Resources.css";
 
 function Resources() {
   return (
-    <div>
-        <h1> Resources</h1>
-        <div style={{textAlign: 'left', marginRight: "50px", marginLeft: "50px", fontSize: "20px"}}>
-        <p>
-        We understand that finding reputable financial resources can sometimes be a daunting process, so
-        we have developed a running list of resources that you may want to consult throughout your
-        financial journey. The following are some relevant resources and entities that might prove helpful
-        as you navigate your financial journey:
-        </p>
-        <ul>
-          <li>
+    <div className="resources" style={{backgroundImage: `url(${resourcesImage})`, }}>
+        <div style={{opacity: 0.81, backgroundColor: `rgb(75,143,186)`}}>
+          <h1 style={{fontSize: "50px",textAlign: 'center'}}> Resources</h1> 
+          <div style={{fontSize: "20px", margin: "20px"}}>
+            <p>
+            We understand that finding reputable financial resources can sometimes be a daunting process, so
+            we have developed a running list of resources that you may want to consult throughout your
+            financial journey. The following are some relevant resources and entities that might prove helpful
+            as you navigate your financial journey:
+            </p>
+            <ul>
+            <li>
             Capital One is a notable financial services company that was established nearly 30 years ago. It
             intends to make the financial system more accessible to and inclusive of a broad range of individuals,
             including those who might not have had access to certain financial services otherwise. Additionally,
@@ -57,6 +60,7 @@ function Resources() {
           <br/>
           We plan to include additional resources over time. If there are any particular resources or topics that
           you are interested in, feel free to contact us and share your thoughts.
+         </div> 
         </div>
       </div>
   );
