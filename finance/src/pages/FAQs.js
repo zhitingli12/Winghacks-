@@ -10,7 +10,9 @@ function FAQs() {
         <b>What does financial literacy even mean?</b>
 <br/>
 <br/>
-According to Cambridge Dictionary, financial literacy can be defined as “the ability to understand basic 
+According 
+to <Link to="https://dictionary.cambridge.org/us/dictionary/english/financial-literacy">Cambridge Dictionary</Link>, 
+financial literacy can be defined as “the ability to understand basic 
 principles of business and finance.” According to an article on Harvard Business School’s website, some 
 basic principles of business and finance might include the following: cash flow (the general movement of 
 money, whether into or out of an account), time value of money (principle that suggests the current value 
@@ -42,7 +44,9 @@ According to <Link to="https://gitnux.org/financial-literacy-in-america-statisti
 <br/>
 <br/>
 An individual’s level of financial literacy can greatly influence their financial decision-making logic and
- processes. According to a 2021 national study conducted by the FINRA Foundation, when compared to 
+ processes. According to 
+ a <Link to="https://www.finra.org/investors/insights/finra-foundation-national-financial-capability-study">2021 national study</Link> conducted 
+ by the FINRA Foundation, when compared to 
  individuals with lower financial literacy, individuals with higher financial literacy were more likely to 
  make ends meet. Those with higher financial literacy spent less than they made in income, were more likely 
  to designate at least three month’s worth of emergency funds, and were more likely to make long-term 
