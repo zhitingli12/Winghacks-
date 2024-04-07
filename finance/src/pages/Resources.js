@@ -5,7 +5,7 @@ import "../styles/Resources.css";
 
 function Resources() {
   return (
-    <div className="resources" style={{backgroundImage: `url(${resourcesImage})`, }}>
+    <div className="resources" style={{backgroundImage: `url(${resourcesImage})` }}>
         <div style={{opacity: 0.81, backgroundColor: `rgb(75,143,186)`}}>
           <h1 style={{fontSize: "50px",textAlign: 'center'}}> Resources</h1> 
           <div style={{fontSize: "20px", margin: "20px"}}>
