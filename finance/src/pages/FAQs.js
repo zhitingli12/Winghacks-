@@ -14,7 +14,7 @@ function FAQs() {
 According 
 to <Link to="https://dictionary.cambridge.org/us/dictionary/english/financial-literacy">Cambridge Dictionary</Link>, 
 financial literacy can be defined as “the ability to understand basic 
-principles of business and finance.” According to an article on Harvard Business School’s website, some 
+principles of business and finance.” According to an article on the <Link to="https://online.hbs.edu/blog/post/finance-principles">Harvard Business School</Link> website, some 
 basic principles of business and finance might include the following: cash flow (the general movement of 
 money, whether into or out of an account), time value of money (principle that suggests the current value 
 of a given sum money now will be lower in the future), and risk and return (concept that establishes a 
