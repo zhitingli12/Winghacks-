@@ -5,6 +5,7 @@ import Resources from "./pages/Resources";
 import About from "./pages/About";
 import Survey from "./pages/Survey";
 import FAQs from "./pages/FAQs";
+import Landing from "./pages/Landing";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route exact path="/about" element={<About/>} />
           <Route exact path="/survey" element={<Survey/>} />
           <Route exact path="/FAQs" element={<FAQs/>} />
+          <Route exact path="/landing" element={<Landing/>} />
         </Routes>
       </Router>
     </div>

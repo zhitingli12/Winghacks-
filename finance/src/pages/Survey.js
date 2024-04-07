@@ -21,7 +21,7 @@ function Survey() {
         currentSavings: currentSavings,
         savingsGoal: savingsGoal
       };
-      navigate('/');
+      navigate('/landing');
     } 
   }
 
