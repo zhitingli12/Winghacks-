@@ -1,9 +1,10 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import "../styles/FAQs.css";
 
 function FAQs() {
   return (
-      <div>
+      <div className="faqs">
         <h1> FAQs</h1>
         <div style={{textAlign: 'left', marginRight: "50px", marginLeft: "50px", fontSize: "20px"}}>
         <p>
