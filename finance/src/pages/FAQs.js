@@ -23,7 +23,6 @@ Federal Student Aid website suggests that financial literacy concerns an individ
 regarding earning, managing, and investing money. Evidently, financial literacy is a determining factor 
 in the types of financial choices that an individual makes.
         </p>
-        <br/>
         <p>
         <b>What is the current state of financial literacy in the United States?</b>
 <br/>
@@ -36,7 +35,7 @@ According to <Link to="https://gitnux.org/financial-literacy-in-america-statisti
 <li>Over 50% of Americans experience feelings of anxiety when they think about personal finances</li>
 <li>Less than 30% of Americans have established financial plans that take savings and investment goals 
     into account</li>
-<li>Less than 20% of students in the United States must take required personal finance classes in schools.</li>
+<li>Less than 20% of students in the United States must take required personal finance classes in schools</li>
 </ul>
         </p>
         <p>
